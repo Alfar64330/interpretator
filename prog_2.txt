@@ -1,0 +1,15 @@
+program var a,b:bool, c:int;
+begin
+	a:=true;
+	b:=false;
+	c:=17;
+	write(a and b);
+	while  c < 18 do
+	c:=c+1;
+
+	if a then c:=c+1 else write(c);
+
+	for c:=10 to 12 do write(c);
+	a:=false
+end
+@
